@@ -203,3 +203,7 @@ footer input {
   color: #fff;
   cursor: pointer;
 }
+
+footer input:hover {
+  background-color: #ca435e;
+}
