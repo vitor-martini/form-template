@@ -199,3 +199,13 @@ footer input {
 footer input:hover {
   background-color: #ca435e;
 }
+
+@media screen and (max-width: 750px) {
+  header {
+    margin-left: 64px;
+  }
+
+  main {
+    margin: 64px;
+  }
+}
