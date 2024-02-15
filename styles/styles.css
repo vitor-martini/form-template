@@ -21,7 +21,7 @@ legend {
 }
 
 header {
-  max-width: 417px;
+  max-width: 50%;
   color: #fff;
 }
 
@@ -188,7 +188,7 @@ footer input {
   border: none;
   font-size: 20px;
   line-height: 26px;
-  padding: 16px 280px;
+  padding: 16px 35%;
   margin: 64px 0px;
   border-radius: 8px;
   font-family: "Staatliches", sans-serif;
@@ -201,19 +201,23 @@ footer input:hover {
 }
 
 @media screen and (max-width: 750px) {
+  .page {
+    margin: 32px auto;
+  }
+
   header {
-    margin-left: 64px;
+    margin-left: 32px;
   }
 
   main {
-    margin: 64px 64px 0 64px;
+    margin: 32px 32px 0 32px;
   }
 
   footer {
-    margin: 0 64px;
+    margin: 0 32px;
   }
 
   footer input {
-    padding: 16px 50vw;
+    padding: 16px 35%;
   }
 }
