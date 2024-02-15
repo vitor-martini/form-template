@@ -206,6 +206,14 @@ footer input:hover {
   }
 
   main {
-    margin: 64px;
+    margin: 64px 64px 0 64px;
+  }
+
+  footer {
+    margin: 0 64px;
+  }
+
+  footer input {
+    padding: 16px 210px;
   }
 }
